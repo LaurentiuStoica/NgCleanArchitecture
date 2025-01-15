@@ -71,4 +71,3 @@ This architecture is designed to be compatible with the latest Angular version. 
 - [Clean Architecture by Robert C. Martin](https://www.goodreads.com/book/show/18043011-clean-architecture)
 
 This document serves as a guide for creating a maintainable Angular application using clean architecture principles.
-
