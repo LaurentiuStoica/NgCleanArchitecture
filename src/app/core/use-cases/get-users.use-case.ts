@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { User } from '../entities/user';
-import { UserRepository } from '../interfaces/user-repository.interface';
+import { User } from '../interfaces/user.interface';
+import { UserRepository } from '../repositories/user.repository';
 
 @Injectable({
   providedIn: 'root',
 })
 export class GetUsersUseCase {
-  constructor(private userRepository: UserRepository) {} // Inject UserRepository
+  constructor(private userRepository: UserRepository) {}
 
   execute(): Observable<User[]> {
     return this.userRepository.fetchUsers();

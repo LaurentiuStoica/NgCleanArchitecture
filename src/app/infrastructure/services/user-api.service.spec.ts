@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { HttpClient } from '@angular/common/http';
 import { of } from 'rxjs';
 import { UserApiService } from './user-api.service';
-import { User } from '../../core/entities/user';
+import { User } from '../../core/interfaces/user.interface';
 
 describe('UserApiService', () => {
   let service: UserApiService;

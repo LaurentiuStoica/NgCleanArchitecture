@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { GetUsersUseCase } from './get-users.use-case';
-import { UserRepository } from '../interfaces/user-repository.interface';
+import { UserRepository } from '../repositories/user.repository';
 import { of } from 'rxjs';
 
 describe('GetUsersUseCase', () => {

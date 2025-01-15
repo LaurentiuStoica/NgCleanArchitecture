@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { User } from '../../../core/entities/user';
+import { User } from '../../../core/interfaces/user.interface';
 import { UserFacade } from '../../../application/services/user-facade';
 import { LoadingSpinnerComponent } from '../../../shared/components/loading-spinner/loading-spinner.component';
 import { CommonModule } from '@angular/common';
